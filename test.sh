@@ -1,4 +1,5 @@
 #!/bin/sh
+INPUT=${1-nonl.txt}
 make -s
 cat <<'EOF' |
 ./r-c
@@ -18,6 +19,6 @@ EOF
 while read CMD
 do
     echo -n "$CMD: "
-    $CMD <nonl.txt
+    $CMD <$INPUT
 done
 make -s clean
