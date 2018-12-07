@@ -142,10 +142,10 @@ is some stuff here that I found interesting.
 ## Build and Run
 
 You will need installations of all of the above-indicated
-languages on your machine. They are all available as Debian
-Linux packages, with the obvious names. It is presumably
-clear how to run `test.sh` from the comments in the previous
-section.
+language implementations on your machine. They are all
+available as Debian Linux packages with quite guessable
+names. It is presumably clear how to run `test.sh` from the
+comments in the previous section.
 
 ## Future Work
 
