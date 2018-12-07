@@ -5,9 +5,11 @@
  * distribution of this software for license terms.
  */
 
+#include <assert.h>
 #include <stdio.h>
 
 int main() {
-    char buf[32];
-    printf("%s\n", fgets(buf, sizeof buf, stdin));
+    char buf[1024];
+    assert(fgets(buf, sizeof buf, stdin));
+    printf("%s\n", buf);
 }
