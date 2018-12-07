@@ -105,7 +105,7 @@ is some stuff here that I found interesting.
 
 * C infamously provides no way for its line reader to
   allocate a string sufficiently long to read the line.  I
-  used the usual "pick a size and panic if it fails"
+  used the usual "pick a size and die if it fails"
   strategy. Even after 35 years of C programming, I forgot
   to check the error return from `fgets()` and had to go
   back and add it.
